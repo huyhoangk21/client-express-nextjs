@@ -7,6 +7,7 @@ const Button = styled.button`
   border: 1px solid ${props => props.theme.main};
   padding: 0.5rem 1rem;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
   transition: all 0.4s ease;
   outline: none;
