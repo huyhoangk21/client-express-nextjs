@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Button = styled.button`
-  color: ${props => props.theme.white};
+  color: white;
   background-color: ${props => props.theme.main};
   border: 1px solid ${props => props.theme.main};
   padding: 0.5rem 1rem;
@@ -12,7 +12,7 @@ const Button = styled.button`
   outline: none;
   &:hover,
   &:focus {
-    background-color: ${props => props.theme.transparent};
+    background-color: transparent;
   }
 
   ${props =>
@@ -20,7 +20,7 @@ const Button = styled.button`
     css`
       &:hover,
       &:focus {
-        border-color: ${props => props.theme.white};
+        border-color: white;
       }
     `}
 
@@ -29,8 +29,8 @@ const Button = styled.button`
     css`
       &:hover,
       &:focus {
-        border-color: ${props => props.theme.black};
-        color: ${props => props.theme.black};
+        border-color: black;
+        color: black;
       }
     `}
 `;
