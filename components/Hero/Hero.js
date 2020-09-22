@@ -2,10 +2,10 @@ import React from 'react';
 import HeroContainer from './Hero.styled';
 import PropTypes from 'prop-types';
 
-const Hero = ({ img, title, children }) => {
+const Hero = ({ img, text, children }) => {
   return (
     <HeroContainer img={img}>
-      <h1>{title}</h1>
+      <h1>{text}</h1>
       {children}
     </HeroContainer>
   );
@@ -13,7 +13,7 @@ const Hero = ({ img, title, children }) => {
 
 Hero.propTypes = {
   img: PropTypes.node.isRequired,
-  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };
 
