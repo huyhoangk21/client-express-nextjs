@@ -2,6 +2,7 @@ import { Button } from '../components/shared';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Layout from '../components/Layout';
+import Service from '../components/Service';
 export default function Home() {
   return (
     <Layout title='Pham Chu Express | Công Ty Vận Chuyển'>
@@ -9,6 +10,7 @@ export default function Home() {
         <Button white>Đọc thêm</Button>;
       </Hero>
       <About />
+      <Service />
     </Layout>
   );
 }

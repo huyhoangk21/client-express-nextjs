@@ -3,7 +3,7 @@ import AboutContainer from './About.styled';
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer as='section'>
       <div className='about__content'>
         <SectionTitle>Về chúng tôi</SectionTitle>
         <p className='about__text'>
