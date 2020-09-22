@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Hero = ({ img, text, children }) => {
   return (
-    <HeroContainer img={img}>
+    <HeroContainer img={img} as='section'>
       <h1>{text}</h1>
       {children}
     </HeroContainer>

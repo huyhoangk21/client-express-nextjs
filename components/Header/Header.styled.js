@@ -9,7 +9,8 @@ export const HeaderContainer = styled(Container)`
   min-height: 60px;
   background-color: ${props => (props.scrolled ? 'white' : 'transparent')};
   box-shadow: ${props => (props.scrolled ? '0 0 0.5rem #999999' : '')};
-
+  padding-top: 0;
+  padding-bottom: 0;
   .open {
     font-size: 1.5rem;
     color: ${props => (props.scrolled ? 'black' : 'white')};

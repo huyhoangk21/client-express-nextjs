@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Layout from '../components/Layout';
 import Service from '../components/Service';
+import Process from '../components/Process';
 export default function Home() {
   return (
     <Layout title='Pham Chu Express | Công Ty Vận Chuyển'>
@@ -11,6 +12,7 @@ export default function Home() {
       </Hero>
       <About />
       <Service />
+      <Process img='/images/process.jpg' />
     </Layout>
   );
 }

@@ -3,8 +3,6 @@ import { Container, SectionTitle } from '../shared';
 
 const AboutContainer = styled(Container)`
   background-color: ${props => props.theme.backgroundColor};
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 
   @media screen and (min-width: 992px) {
     align-items: start;

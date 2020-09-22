@@ -5,22 +5,22 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 0.5rem;
+  padding: 4rem 0.5rem;
 
   @media screen and (min-width: 768px) {
-    padding: 0 4rem;
+    padding: 4rem 4rem;
   }
 
   @media screen and (min-width: 992px) {
-    padding: 0 8rem;
+    padding: 4rem 8rem;
   }
 
   @media screen and (min-width: 1200px) {
-    padding: 0 10rem;
+    padding: 4rem 10rem;
   }
 
   @media screen and (min-width: 1600px) {
-    padding: 0 25rem;
+    padding: 4rem 25rem;
   }
 `;
 

@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 import { Container, SectionTitle } from '../shared';
 const ServiceContainer = styled(Container)`
-  padding-top: 4rem;
-  padding-botton: 4rem;
   ${SectionTitle} {
     margin-bottom: 1rem;
   }

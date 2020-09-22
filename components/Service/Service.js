@@ -64,7 +64,7 @@ const renderedServices = services.map(service => {
 
 const Service = () => {
   return (
-    <ServiceContainer>
+    <ServiceContainer as='section'>
       <SectionTitle>Các dịch vụ</SectionTitle>
       <ServiceContainer.Content>{renderedServices}</ServiceContainer.Content>
     </ServiceContainer>
