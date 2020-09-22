@@ -38,7 +38,7 @@ const Header = () => {
   }, [scrolled]);
 
   return (
-    <HeaderContainer scrolled={scrolled}>
+    <HeaderContainer scrolled={scrolled} as='header'>
       <Logo>Express</Logo>
       <Nav sideNav={sideNav} ref={navRef} scrolled={scrolled}>
         <i className='las la-times close' onClick={() => setSideNav(false)} />

@@ -1,5 +1,7 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
+import Footer from '../Footer';
+import Header from '../Header';
 const Layout = ({ title, children }) => {
   return (
     <Fragment>
@@ -15,7 +17,9 @@ const Layout = ({ title, children }) => {
           rel='stylesheet'
           href='https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css'></link>
       </Head>
+      <Header />
       <div>{children}</div>
+      <Footer />
     </Fragment>
   );
 };
