@@ -1,5 +1,6 @@
 import { Button } from '../components/shared';
 import Hero from '../components/Hero';
+import About from '../components/About';
 import Layout from '../components/Layout';
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Hero img='images/hero-bg.jpg' text='Chúng tôi vận chuyển hàng'>
         <Button white>Đọc thêm</Button>;
       </Hero>
+      <About />
     </Layout>
   );
 }
