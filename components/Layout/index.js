@@ -15,7 +15,14 @@ const Layout = ({ title, children }) => {
         />
         <link
           rel='stylesheet'
-          href='https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css'></link>
+          href='https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css'
+        />
+        <link
+          rel='stylesheet'
+          href='https://use.fontawesome.com/releases/v5.14.0/css/all.css'
+          integrity='sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc'
+          crossorigin='anonymous'
+        />
       </Head>
       <Header />
       <div>{children}</div>

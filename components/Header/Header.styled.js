@@ -75,8 +75,60 @@ const NavItem = styled.a`
   }
 `;
 
+const DropdownContent = styled.div`
+  display: ${props => (props.showDropdown ? 'block' : 'none')};
+  background-color: white;
+  color: black;
+  @media screen and (min-width: 992px) {
+    border-top: 3px solid ${props => props.theme.main};
+    position: absolute;
+    width: 14rem;
+    box-shadow: 0 0 0.5rem #999999;
+    display: none;
+  }
+`;
+
+export const Dropdown = styled.div`
+  position: relative;
+  @media screen and (min-width: 992px) {
+    &:hover ${DropdownContent} {
+      display: block;
+    }
+  }
+`;
+
+const DropdownTitle = styled(NavItem)`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (min-width: 992px) {
+    i {
+      margin-left: 0.4rem;
+    }
+  }
+`;
+
+const DropdownItem = styled(NavItem)`
+  text-transform: none;
+  display: block;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  @media screen and (min-width: 992px) {
+    &:hover {
+      background-color: ${props => props.theme.backgroundColor};
+    }
+  }
+`;
+
+Dropdown.Content = DropdownContent;
+Dropdown.Title = DropdownTitle;
+Dropdown.Item = DropdownItem;
 Nav.Item = NavItem;
 
 Nav.propTypes = {
   sideNav: PropTypes.bool.isRequired,
+};
+
+DropdownContent.propTypes = {
+  showDropdown: PropTypes.bool.isRequired,
 };

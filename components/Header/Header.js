@@ -1,11 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
-import { HeaderContainer, Nav } from './Header.styled';
+import { HeaderContainer, Nav, Dropdown } from './Header.styled';
 import { Logo } from '../shared';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [sideNav, setSideNav] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
   const navRef = useRef();
   const hamburgerRef = useRef();
 
@@ -27,7 +28,7 @@ const Header = () => {
 
   useEffect(() => {
     const scrollWindow = () => {
-      setScrolled(window.scrollY > 200);
+      setScrolled(window.scrollY > 150);
     };
 
     document.addEventListener('scroll', scrollWindow);
@@ -45,6 +46,31 @@ const Header = () => {
         <Link href='/'>
           <Nav.Item>Trang chủ</Nav.Item>
         </Link>
+        <Dropdown onClick={() => setShowDropdown(!showDropdown)}>
+          <Dropdown.Title>
+            Dịch vụ <i className='fas fa-chevron-down' />
+          </Dropdown.Title>
+          <Dropdown.Content showDropdown={showDropdown}>
+            <Link href='/'>
+              <Dropdown.Item>Chuyển hàng từ Mỹ về Việt Nam</Dropdown.Item>
+            </Link>
+            <Link href='/'>
+              <Dropdown.Item>Chuyển tiền từ Mỹ về Việt Nam</Dropdown.Item>
+            </Link>
+            <Link href='/'>
+              <Dropdown.Item>Mua hàng</Dropdown.Item>
+            </Link>
+            <Link href='/'>
+              <Dropdown.Item>In ấn</Dropdown.Item>
+            </Link>
+            <Link href='/'>
+              <Dropdown.Item>Vận chuyển nội địa Mỹ</Dropdown.Item>
+            </Link>
+            <Link href='/'>
+              <Dropdown.Item>Sản phẩm</Dropdown.Item>
+            </Link>
+          </Dropdown.Content>
+        </Dropdown>
         <Link href='/news'>
           <Nav.Item>Thông tin</Nav.Item>
         </Link>
