@@ -11,7 +11,6 @@ const AboutContainer = styled(Container)`
   .about__content {
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
 
     ${SectionTitle} {
       margin-bottom: 2rem;
@@ -30,7 +29,6 @@ const AboutContainer = styled(Container)`
 
   .about__img {
     width: 100%;
-    margin: 0 auto;
     @media screen and (min-width: 768px) {
       width: 350px;
     }

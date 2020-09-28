@@ -5,7 +5,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 4rem 0.5rem;
+  padding: 4rem 1rem;
 
   @media screen and (min-width: 768px) {
     padding: 4rem 4rem;
