@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import Footer from '../Footer';
 import Header from '../Header';
-const Layout = ({ title, children }) => {
+const Layout = ({ title, children, headerScrolled = false }) => {
   return (
     <Fragment>
       <Head>
@@ -24,7 +24,7 @@ const Layout = ({ title, children }) => {
           crossorigin='anonymous'
         />
       </Head>
-      <Header />
+      <Header scroll={headerScrolled} />
       <div>{children}</div>
       <Footer />
     </Fragment>

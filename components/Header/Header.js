@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { HeaderContainer, Nav, Dropdown } from './Header.styled';
 import { Logo } from '../shared';
 
-const Header = () => {
-  const [scrolled, setScrolled] = useState(false);
+const Header = ({ scroll }) => {
+  const [scrolled, setScrolled] = useState(scroll);
   const [sideNav, setSideNav] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const navRef = useRef();
