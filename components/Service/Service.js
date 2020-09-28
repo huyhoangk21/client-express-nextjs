@@ -7,42 +7,40 @@ const services = [
     icon: 'las la-plane',
     title: 'Chuyển hàng từ Mỹ về Việt Nam',
     text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.',
+      'Vận chuyển hàng từ Mỹ và giao tận nhà cho người thân, gia đình, và bạn bè tại Việt Nam.',
     link: '/',
   },
   {
     icon: 'las la-money-bill-alt',
     title: 'Chuyển tiền từ Mỹ về Việt Nam',
     text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.',
+      'Chuyển tiền về Việt Nam nhanh chóng cho người thân, gia đình, và bạn bè tại Việt Nam trong vòng 1 ngày.',
     link: '/',
   },
   {
     icon: 'las la-store-alt',
     title: 'Mua hàng',
     text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.',
+      'Mua và vận chuyển các mặt hàng có tại khắp nước Mỹ và giao tận nhà tại Việt Nam',
     link: '/',
   },
   {
     icon: 'las la-print',
     title: 'In ấn',
-    text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.',
+    text: 'Dịch vụ in ấn và scan số lượng lớn nhanh chóng và uy tín.',
     link: '/',
   },
   {
     icon: 'las la-truck',
     title: 'Chuyển hàng nội địa Mỹ',
-    text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.',
+    text: 'Vận chuyển hàng hoá tới khắp nước Mỹ trong vòng không quá 4-5 ngày.',
     link: '/',
   },
   {
     icon: 'las la-shopping-cart',
     title: 'Sản phẩm',
     text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.',
+      'Pham Chu Express có bán các sản phẩm, thực phẩm thiết yếu và dịch vụ giao hàng tận nơi.',
     link: '/',
   },
 ];

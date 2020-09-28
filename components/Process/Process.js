@@ -3,19 +3,19 @@ import { SectionTitle, Info } from '../shared';
 
 const process = [
   {
-    title: 'Đăng kí vận chuyển',
+    title: 'Đăng kí',
     text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt praesentium dicta consectetur fuga neque fugit a at. Cum quod vero assumenda iusto.',
+      'Khách hàng chọn một trong các dịch vụ Pham Chu Express cung cấp. Khách hàng có thể đăng kí tại văn phòng, qua email, hoặc qua điện thoại.',
   },
   {
     title: 'Gửi hàng',
     text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt praesentium dicta consectetur fuga neque fugit a at. Cum quod vero assumenda iusto.',
+      'Hàng hoá sẽ được kiểm tra và cân để quy đổi thành tiền. Nhân viên sẽ in ra biên nhận cho dịch vụ và mặt hàng đã được đăng kí.',
   },
   {
     title: 'Kí tên biên nhận',
     text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt praesentium dicta consectetur fuga neque fugit a at. Cum quod vero assumenda iusto.',
+      'Sau khi hoàn tất các thủ tục cần thiết, khách hàng kí tên và nhận một bản sao biên nhận. Dịch vụ sẽ được đáp ứng nhanh chóng sau khi được đăng kí.',
   },
 ];
 
