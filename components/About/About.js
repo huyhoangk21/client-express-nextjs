@@ -7,16 +7,19 @@ const About = () => {
       <div className='about__content'>
         <SectionTitle>Về chúng tôi</SectionTitle>
         <p className='about__text'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-          deleniti reprehenderit animi est eaque corporis! Nisi, asperiores nam
-          amet doloribus, soluta ut reiciendis. Consequatur modi rem, vero eos
-          ipsam voluptas.
+          Pham Chu Express là một công ty vận chuyển hàng hoá được thành lập vào
+          ngày 20/11/2018. Công ty chính thức đi vào hoạt động vào ngày 1/1/2019
+          tại một căn hộ nhỏ tại trung tâm thành phố Lincoln thuộc tiểu bang
+          Nebraska. Tới ngày 1/9/2019, Pham Chu Express dời văn phòng hoạt động
+          về địa chỉ 611 N 27th Ste 1, Lincoln, NE 68503 (Địa chỉ văn phòng hiện
+          tại)
         </p>
         <br />
         <p className='about__text'>
-          Error minus sint nobis dolor laborum architecto, quaerat. Voluptatum
-          porro expedita labore esse velit veniam laborum quo obcaecati
-          similique iusto delectus quasi!
+          Từ khi được thành lập, Pham Chu Express đã hỗ trợ nhiều khách hàng
+          Việt Nam tại Mỹ vận chuyển hàng hoá và tiền về cho người thân, gia
+          đình, và bạn bè tại Việt Nam mỗi ngày. Phương châm làm việc của Pham
+          Chu Express là nhanh chóng, uy tín, và đảm bảo.
         </p>
       </div>
       <img
