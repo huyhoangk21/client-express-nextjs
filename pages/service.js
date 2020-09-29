@@ -5,7 +5,7 @@ export default function Service() {
   return (
     <Layout title='Các dịch vụ của Pham Chu Express' headerScrolled={true}>
       <div style={{ paddingTop: '60px' }}>
-        <ServiceContent>
+        <ServiceContent id='service1'>
           <ServiceContent.Col>
             <img
               src='/images/service-1.jpg'
@@ -16,7 +16,7 @@ export default function Service() {
             <SectionTitle>Chuyển hàng về Việt Nam</SectionTitle>
           </ServiceContent.Col>
         </ServiceContent>
-        <ServiceContent bg>
+        <ServiceContent bg id='service2'>
           <ServiceContent.Col>
             <img
               src='/images/service-2.jpg'
@@ -27,7 +27,7 @@ export default function Service() {
             <SectionTitle>Chuyển tiền về Việt Nam</SectionTitle>
           </ServiceContent.Col>
         </ServiceContent>
-        <ServiceContent>
+        <ServiceContent id='service3'>
           <ServiceContent.Col>
             <img
               src='/images/service-3.jpg'
@@ -38,7 +38,7 @@ export default function Service() {
             <SectionTitle>Mua hàng</SectionTitle>
           </ServiceContent.Col>
         </ServiceContent>
-        <ServiceContent bg>
+        <ServiceContent bg id='service4'>
           <ServiceContent.Col>
             <img
               src='/images/service-4.jpg'
@@ -49,7 +49,7 @@ export default function Service() {
             <SectionTitle>In ấn</SectionTitle>
           </ServiceContent.Col>
         </ServiceContent>
-        <ServiceContent>
+        <ServiceContent id='service5'>
           <ServiceContent.Col>
             <img
               src='/images/service-5.jpg'
@@ -60,7 +60,7 @@ export default function Service() {
             <SectionTitle>Chuyển hàng nội địa Mỹ</SectionTitle>
           </ServiceContent.Col>
         </ServiceContent>
-        <ServiceContent bg>
+        <ServiceContent bg id='service6'>
           <ServiceContent.Col>
             <img
               src='/images/service-6.jpg'

@@ -54,22 +54,22 @@ const Header = ({ scroll }) => {
             Dịch vụ <i className='fas fa-chevron-down' />
           </Dropdown.Title>
           <Dropdown.Content showDropdown={showDropdown}>
-            <Link href='/'>
+            <Link href='/service#service1'>
               <Dropdown.Item>Chuyển hàng từ Mỹ về Việt Nam</Dropdown.Item>
             </Link>
-            <Link href='/'>
+            <Link href='/service#service2'>
               <Dropdown.Item>Chuyển tiền từ Mỹ về Việt Nam</Dropdown.Item>
             </Link>
-            <Link href='/'>
+            <Link href='/service#service3'>
               <Dropdown.Item>Mua hàng</Dropdown.Item>
             </Link>
-            <Link href='/'>
+            <Link href='/service#service4'>
               <Dropdown.Item>In ấn</Dropdown.Item>
             </Link>
-            <Link href='/'>
+            <Link href='/service#service5'>
               <Dropdown.Item>Vận chuyển nội địa Mỹ</Dropdown.Item>
             </Link>
-            <Link href='/'>
+            <Link href='/service#service6'>
               <Dropdown.Item>Sản phẩm</Dropdown.Item>
             </Link>
           </Dropdown.Content>
