@@ -6,17 +6,29 @@ export const ServiceContent = styled(Container)`
   display: flex;
   flex-wrap: wrap;
   align-items: start;
+  justify-content: center;
   background-color: ${props =>
     props.bg ? props.theme.backgroundColor : 'white'};
 
   @media screen and (min-width: 992px) {
     flex-direction: ${props => (props.bg ? 'row-reverse' : 'row')};
+    justify-content: space-between;
+  }
+
+  .content {
   }
 `;
 
 const Col = styled.div`
   width: 100%;
-  max-width: 450px;
+
+  @media screen and (min-width: 992px) {
+    width: 370px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 430px;
+  }
 
   img {
     width: 100%;
@@ -26,6 +38,19 @@ const Col = styled.div`
 
   ${SectionTitle} {
     font-size: 1.5rem;
+    margin-top: 2rem;
+
+    @media screen and (min-width: 992px) {
+      margin-top: 0;
+    }
+  }
+
+  .content {
+    margin-top: 2rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
