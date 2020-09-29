@@ -7,12 +7,13 @@ const About = () => {
       <div className='about__content'>
         <SectionTitle>Về chúng tôi</SectionTitle>
         <p className='about__text'>
-          Pham Chu Express là một công ty vận chuyển hàng hoá được thành lập vào
-          ngày 20/11/2018. Công ty chính thức đi vào hoạt động vào ngày 1/1/2019
-          tại một căn hộ nhỏ tại trung tâm thành phố Lincoln thuộc tiểu bang
-          Nebraska. Tới ngày 1/9/2019, Pham Chu Express dời văn phòng hoạt động
-          về địa chỉ 611 N 27th Ste 1, Lincoln, NE 68503 (Địa chỉ văn phòng hiện
-          tại)
+          Pham Chu Import and Export là một công ty vận chuyển hàng hoá được
+          thành lập vào ngày 20/11/2018. Công ty chính thức đi vào hoạt động vào
+          ngày 1/1/2019 tại một căn hộ nhỏ tại trung tâm thành phố Lincoln thuộc
+          tiểu bang Nebraska. Tới ngày 1/9/2019, Pham Chu Express dời văn phòng
+          hoạt động về địa chỉ 611 N 27th Ste 1, Lincoln, NE 68503 (Địa chỉ văn
+          phòng hiện tại). Pham Chu Express là một sản phẩm của Pham Chu Import
+          and Export.
         </p>
         <br />
         <p className='about__text'>

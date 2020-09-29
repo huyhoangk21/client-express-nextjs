@@ -7,10 +7,10 @@ const Footer = () => {
       <FooterContainer.Col className='col-big'>
         <h3>Pham Chu Express</h3>
         <div className='content'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-          deleniti reprehenderit animi est eaque corporis! Nisi, asperiores nam
-          amet doloribus, soluta ut reiciendis. Consequatur modi rem, vero eos
-          ipsam voluptas.
+          Pham Chu Express đã hỗ trợ nhiều khách hàng Việt Nam tại Mỹ vận chuyển
+          hàng hoá và tiền về cho người thân, gia đình, và bạn bè tại Việt Nam
+          mỗi ngày. Phương châm làm việc của Pham Chu Express là nhanh chóng, uy
+          tín, và đảm bảo.
         </div>
       </FooterContainer.Col>
       <FooterContainer.Col>
@@ -50,20 +50,32 @@ const Footer = () => {
             <h4>
               <i className='las la-map-marked'></i> Địa chỉ
             </h4>
-            <p>611 N 27th St, Ste 1, Lincoln, NE, 68503</p>
+            <a
+              href='http://maps.google.com/?q=611 N 27th St, Ste 1, Lincoln, NE, 68503'
+              target='_blank'>
+              611 N 27th St, Ste 1, Lincoln, NE, 68503
+            </a>
           </div>
           <div className='content__item'>
             <h4>
               <i className='las la-envelope'></i> Email
             </h4>
-            <p>phamchu.importandexport@gmail.com</p>
+            <a
+              href='https://mail.google.com/mail/?view=cm&fs=1&to=phamchu.importandexport@gmail.com'
+              target='_blank'>
+              phamchu.importandexport@gmail.com
+            </a>
           </div>
           <div className='content__item'>
             <h4>
               <i className='las la-phone'></i> Điện thoại
             </h4>
-            <p>(206) 201-4805 (Tiếng anh)</p>
-            <p>(402) 304-5519 (Tiếng việt)</p>
+            <a href='tel:2062014805' target='_blank'>
+              (206) 201-4805 (Tiếng Anh)
+            </a>
+            <a href='tel:4023045519' target='_blank'>
+              (402) 304-5519 (Tiếng Việt)
+            </a>
           </div>
         </div>
       </FooterContainer.Col>
