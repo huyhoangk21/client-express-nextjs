@@ -27,6 +27,9 @@ const Header = ({ scroll }) => {
   }, [sideNav]);
 
   useEffect(() => {
+    if (scroll) {
+      return;
+    }
     const scrollWindow = () => {
       setScrolled(window.scrollY > 150);
     };

@@ -38,6 +38,7 @@ export const Nav = styled.nav`
   background-color: white;
   transform: ${props => (props.sideNav ? `translateX(0)` : `translateX(100%)`)};
   transition: transform 0.4s;
+  box-shadow: 0 0 0.5rem #999999;
 
   .close {
     font-size: 1.5rem;
@@ -62,6 +63,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     padding: 0;
     transform: translateX(0);
+    box-shadow: none;
   }
 `;
 
