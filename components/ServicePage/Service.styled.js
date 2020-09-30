@@ -51,6 +51,20 @@ const Col = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    ul {
+      list-style-position: inside;
+      list-style-type: square;
+    }
+  }
+
+  .content.justify {
+    text-align: justify;
+    display: block;
+    a {
+      text-decoration: none;
+      color: ${props => props.theme.main};
+    }
   }
 `;
 

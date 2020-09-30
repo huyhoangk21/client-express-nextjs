@@ -1,6 +1,8 @@
 import Layout from '../components/Layout';
 import { ServiceContent } from '../components/ServicePage';
 import { SectionTitle } from '../components/shared';
+import Link from 'next/link';
+
 export default function Service() {
   return (
     <Layout title='Các dịch vụ của Pham Chu Express' headerScrolled={true}>
@@ -35,7 +37,18 @@ export default function Service() {
           </ServiceContent.Col>
           <ServiceContent.Col>
             <SectionTitle>Chuyển tiền về Việt Nam</SectionTitle>
-            <div className='content'></div>
+            <div className='content'>
+              <ul>
+                <li>Cước phí cạnh tranh chỉ từ 1.5-2%</li>
+                <li>Chuyển tiền khắp mọi nơi trong lãnh thổ Việt Nam</li>
+                <li>
+                  Tiền chuyển đến người thân ở Việt Nam nhanh chóng không quá 1
+                  ngày
+                </li>
+                <li>Thủ tục chuyển tiền không quá 5 phút</li>
+                <li>Chuyển tiền nhanh chóng, đảm bảo, và uy tín</li>
+              </ul>
+            </div>
           </ServiceContent.Col>
         </ServiceContent>
         <ServiceContent id='service3'>
@@ -59,7 +72,10 @@ export default function Service() {
           </ServiceContent.Col>
           <ServiceContent.Col>
             <SectionTitle>In ấn</SectionTitle>
-            <div className='content'></div>
+            <div className='content justify'>
+              Pham Chu Express có cung cấp dịch vụ in, photocopy, và scan số
+              lượng lớn với giá cước thấp.
+            </div>
           </ServiceContent.Col>
         </ServiceContent>
         <ServiceContent id='service5'>
@@ -71,7 +87,26 @@ export default function Service() {
           </ServiceContent.Col>
           <ServiceContent.Col>
             <SectionTitle>Chuyển hàng nội địa Mỹ</SectionTitle>
-            <div className='content'></div>
+            <div className='content'>
+              <ul>
+                <li>
+                  Dịch vụ chuyển hàng nội địa trên toàn lãnh thổ Mỹ trong thời
+                  gian từ 1 đến 4 ngày.
+                </li>
+                <li>
+                  Hỗ trợ in label của các hãng vận chuyển lớn FedEx, USPS, hoặc
+                  UPS.
+                </li>
+                <li>
+                  Thủ tục đăng kí chuyển hàng đơn giản như đăng kí chuyển hàng
+                  quốc tế.
+                </li>
+                <li>
+                  Khách hàng sẽ được cung cấp mã tracking để có thể theo dõi
+                  hàng hoá được vận chuyển online.
+                </li>
+              </ul>
+            </div>
           </ServiceContent.Col>
         </ServiceContent>
         <ServiceContent bg id='service6'>
@@ -83,7 +118,20 @@ export default function Service() {
           </ServiceContent.Col>
           <ServiceContent.Col>
             <SectionTitle>Sản phẩm</SectionTitle>
-            <div className='content'></div>
+            <div className='content justify'>
+              Ngoài các dịch vụ liên quan tới vận chuyển, Phạm Chu Express còn
+              bán các sản phẩm, thực phẩm thiết yếu và một số mặt hàng điện tử
+              như sữa, vitamin, laptop hay smartphone.
+              <br /> Thời gian giao hàng tuỳ vào từng sản phẩm có thể từ 2-7
+              ngày.
+              <br />
+              <br />
+              <Link href='/'>
+                <a>
+                  Tìm hiểu thêm <i className='las la-arrow-right' />
+                </a>
+              </Link>
+            </div>
           </ServiceContent.Col>
         </ServiceContent>
       </div>
