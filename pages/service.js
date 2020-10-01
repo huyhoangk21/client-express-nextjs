@@ -60,7 +60,12 @@ export default function Service() {
           </ServiceContent.Col>
           <ServiceContent.Col>
             <SectionTitle>Mua hàng</SectionTitle>
-            <div className='content'></div>
+            <div className='content'>
+              Pham Chu Express có dịch vụ mua các sản phẩm và hàng hoá trên toàn
+              nước Mỹ và giao tận nhà cho người thân, gia đình, bạn bè tại Việt
+              Nam. Khách hàng có thể đăng kí mua và chuyển hàng thông qua điện
+              thoại, email hoặc ngay tại văn phòng.
+            </div>
           </ServiceContent.Col>
         </ServiceContent>
         <ServiceContent bg id='service4'>
