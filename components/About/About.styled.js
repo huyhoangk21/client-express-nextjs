@@ -30,7 +30,7 @@ const AboutContainer = styled(Container)`
   .about__img {
     width: 100%;
     @media screen and (min-width: 768px) {
-      width: 350px;
+      width: 370px;
     }
   }
 `;
